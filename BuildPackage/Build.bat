@@ -9,4 +9,4 @@ Call grunt --buildversion %APPVEYOR_BUILD_VERSION% --buildbranch %APPVEYOR_REPO_
 cd ..\BuildPackage\
 Call Tools\nuget.exe restore ..\UmbracoCultures.sln
 echo yo
-Call "%programfiles(x86)%\MSBuild\12.0\Bin\MsBuild.exe" package.build.xml
+Call "%programfiles(x86)%\MSBuild\12.0\Bin\MsBuild.exe" package.proj
